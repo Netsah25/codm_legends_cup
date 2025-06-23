@@ -1,0 +1,25 @@
+@tailwind base;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-black text-white overflow-x-hidden;
+  font-family: 'Rajdhani', sans-serif;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+  background-attachment: fixed;
+}
+
+.font-orbitron {
+  font-family: 'Orbitron', monospace;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
